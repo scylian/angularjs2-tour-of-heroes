@@ -6,6 +6,7 @@ import { Hero } from '../hero';
   templateUrl: './hero-detail.component.html',
   styleUrls: ['./hero-detail.component.sass']
 })
+
 export class HeroDetailComponent {
-  @Input() hero: Hero;
+  @Input() hero: Hero; // Hero class object is passed in from parent component
 }
